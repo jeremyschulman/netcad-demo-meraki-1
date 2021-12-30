@@ -1,0 +1,17 @@
+{
+   "name": "cabling",
+   "device": "ms01-dl1",
+   "exclusive": false,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "2"
+         },
+         "expected_results": {
+            "device": "ap01-dl2",
+            "port_id": "0"
+         }
+      }
+   ]
+}

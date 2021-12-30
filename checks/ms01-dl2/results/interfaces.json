@@ -1,0 +1,233 @@
+[
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "1",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "1",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "PASS",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "2",
+            "interface_flags": {}
+         },
+         "expected_results": {
+            "used": true,
+            "oper_up": true,
+            "desc": "ap01-dl3-wi0",
+            "speed": 1000
+         }
+      },
+      "check_id": "2",
+      "measurement": {
+         "used": true,
+         "oper_up": true,
+         "speed": 1000
+      },
+      "field": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "3",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "3",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "4",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "4",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "5",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "5",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "6",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "6",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "7",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "7",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "8",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "8",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "9",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "9",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   },
+   {
+      "status": "FAIL",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "10",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      "check_id": "10",
+      "measurement": true,
+      "field": "used",
+      "error": {
+         "error": "mismatch",
+         "expected": false,
+         "measured": true
+      },
+      "expected": null
+   }
+]

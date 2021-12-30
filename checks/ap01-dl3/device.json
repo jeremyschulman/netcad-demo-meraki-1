@@ -1,0 +1,35 @@
+{
+   "name": "device",
+   "device": "ap01-dl3",
+   "exclusive": true,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "device": "ap01-dl3",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MR52"
+         }
+      }
+   ],
+   "interfaces": {
+      "wan1": {
+         "name": "wan1",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "wired0": {
+         "name": "wired0",
+         "enabled": true,
+         "used": true,
+         "port_type": "UTP-1G",
+         "desc": "ms01-dl2-2",
+         "profile_flags": {}
+      }
+   }
+}

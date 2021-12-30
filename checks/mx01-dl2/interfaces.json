@@ -1,0 +1,127 @@
+{
+   "name": "interfaces",
+   "device": "mx01-dl2",
+   "exclusive": true,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "1",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "2",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "3",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "4",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "5",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "6",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "7",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "8",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "9",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "10",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "11",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "12",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      }
+   ]
+}

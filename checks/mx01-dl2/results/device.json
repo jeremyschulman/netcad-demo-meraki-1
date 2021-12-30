@@ -1,0 +1,55 @@
+[
+   {
+      "status": "INFO",
+      "device": "mx01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "mx01-dl2",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MX65"
+         }
+      },
+      "check_id": "mx01-dl2",
+      "measurement": {
+         "name": "mx01-dl2",
+         "serial": "Q2QN-UTMQ-ZJQA",
+         "mac": "0c:8d:db:b0:c3:44",
+         "networkId": "L_783626335162466514",
+         "productType": "wired",
+         "model": "MX65",
+         "address": "",
+         "lat": 37.4180951010362,
+         "lng": -122.098531723022,
+         "notes": "",
+         "tags": [
+            "recently-added"
+         ],
+         "wan1Ip": "192.168.128.5",
+         "wan2Ip": null,
+         "configurationUpdatedAt": "2021-12-20T19:05:18Z",
+         "firmware": "wired-15-44",
+         "url": "https://n392.meraki.com/DevNetLab2-appli/n/lelHCbig/manage/nodes/new_list/13803415716676"
+      },
+      "field": "device_info"
+   },
+   {
+      "status": "PASS",
+      "device": "mx01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "mx01-dl2",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MX65"
+         }
+      },
+      "check_id": "mx01-dl2",
+      "measurement": "MX65",
+      "field": "product_model"
+   }
+]

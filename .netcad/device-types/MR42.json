@@ -1,0 +1,51 @@
+{
+   "device_type": {
+      "id": 35,
+      "url": "http://localhost:8000/api/dcim/device-types/35/",
+      "display": "MR42",
+      "manufacturer": {
+         "id": 2,
+         "url": "http://localhost:8000/api/dcim/manufacturers/2/",
+         "display": "Cisco",
+         "name": "Cisco",
+         "slug": "cisco"
+      },
+      "model": "MR42",
+      "slug": "mr42",
+      "part_number": "MR42",
+      "u_height": 1,
+      "is_full_depth": false,
+      "subdevice_role": null,
+      "front_image": null,
+      "rear_image": null,
+      "comments": "",
+      "tags": [],
+      "custom_fields": {},
+      "created": "2021-12-30",
+      "last_updated": "2021-12-30T20:40:21.354474Z",
+      "device_count": 0
+   },
+   "interfaces": [
+      {
+         "name": "wan1",
+         "label": "",
+         "type": {
+            "value": "virtual",
+            "label": "Virtual"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "wired0",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      }
+   ],
+   "netcad.origin": "netbox"
+}

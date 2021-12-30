@@ -1,0 +1,115 @@
+{
+   "name": "device",
+   "device": "mx01-dl2",
+   "exclusive": true,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "device": "mx01-dl2",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MX65"
+         }
+      }
+   ],
+   "interfaces": {
+      "1": {
+         "name": "1",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "2": {
+         "name": "2",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "3": {
+         "name": "3",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "4": {
+         "name": "4",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "5": {
+         "name": "5",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "6": {
+         "name": "6",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "7": {
+         "name": "7",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "8": {
+         "name": "8",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "9": {
+         "name": "9",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "10": {
+         "name": "10",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "11": {
+         "name": "11",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "12": {
+         "name": "12",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      }
+   }
+}

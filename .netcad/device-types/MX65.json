@@ -1,0 +1,151 @@
+{
+   "device_type": {
+      "id": 34,
+      "url": "http://localhost:8000/api/dcim/device-types/34/",
+      "display": "MX65",
+      "manufacturer": {
+         "id": 2,
+         "url": "http://localhost:8000/api/dcim/manufacturers/2/",
+         "display": "Cisco",
+         "name": "Cisco",
+         "slug": "cisco"
+      },
+      "model": "MX65",
+      "slug": "mx65",
+      "part_number": "MX65",
+      "u_height": 1,
+      "is_full_depth": false,
+      "subdevice_role": null,
+      "front_image": null,
+      "rear_image": null,
+      "comments": "",
+      "tags": [],
+      "custom_fields": {},
+      "created": "2021-12-30",
+      "last_updated": "2021-12-30T20:03:24.300662Z",
+      "device_count": 0
+   },
+   "interfaces": [
+      {
+         "name": "1",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "2",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "3",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "4",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "5",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "6",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "7",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "8",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "9",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "10",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "11",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      },
+      {
+         "name": "12",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      }
+   ],
+   "netcad.origin": "netbox"
+}

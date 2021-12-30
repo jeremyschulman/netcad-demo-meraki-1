@@ -1,0 +1,99 @@
+{
+   "name": "device",
+   "device": "ms01-dl1",
+   "exclusive": true,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "device": "ms01-dl1",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MS220-8P"
+         }
+      }
+   ],
+   "interfaces": {
+      "1": {
+         "name": "1",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "2": {
+         "name": "2",
+         "enabled": true,
+         "used": true,
+         "port_type": "UTP-1G",
+         "desc": "ap01-dl2-wi0",
+         "profile_flags": {}
+      },
+      "3": {
+         "name": "3",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "4": {
+         "name": "4",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "5": {
+         "name": "5",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "6": {
+         "name": "6",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "7": {
+         "name": "7",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "8": {
+         "name": "8",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "9": {
+         "name": "9",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      },
+      "10": {
+         "name": "10",
+         "enabled": false,
+         "used": false,
+         "port_type": null,
+         "desc": null,
+         "profile_flags": {}
+      }
+   }
+}

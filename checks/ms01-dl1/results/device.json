@@ -1,0 +1,52 @@
+[
+   {
+      "status": "INFO",
+      "device": "ms01-dl1",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ms01-dl1",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MS220-8P"
+         }
+      },
+      "check_id": "ms01-dl1",
+      "measurement": {
+         "name": "ms01-dl1",
+         "serial": "Q2HP-EC87-M9B8",
+         "mac": "e0:55:3d:d0:04:c5",
+         "networkId": "L_783626335162466320",
+         "productType": "switch",
+         "model": "MS220-8P",
+         "address": "",
+         "lat": 37.4180951010362,
+         "lng": -122.098531723022,
+         "notes": "",
+         "tags": [],
+         "lanIp": "192.168.0.3",
+         "configurationUpdatedAt": "2021-12-20T19:06:00Z",
+         "firmware": "switch-12-28",
+         "url": "https://n392.meraki.com/DevNetLab-switch/n/0Yt-Qbig/manage/nodes/new_list/246656713884869"
+      },
+      "field": "device_info"
+   },
+   {
+      "status": "PASS",
+      "device": "ms01-dl1",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ms01-dl1",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MS220-8P"
+         }
+      },
+      "check_id": "ms01-dl1",
+      "measurement": "MS220-8P",
+      "field": "product_model"
+   }
+]

@@ -1,0 +1,6 @@
+{
+   "name": "transceivers",
+   "device": "ap01-dl3",
+   "exclusive": true,
+   "checks": []
+}
