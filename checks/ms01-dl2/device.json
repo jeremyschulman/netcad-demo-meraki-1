@@ -17,10 +17,10 @@
    "interfaces": {
       "1": {
          "name": "1",
-         "enabled": false,
-         "used": false,
-         "port_type": null,
-         "desc": null,
+         "enabled": true,
+         "used": true,
+         "port_type": "UTP-1G",
+         "desc": "mx01-dl2-3",
          "profile_flags": {}
       },
       "2": {

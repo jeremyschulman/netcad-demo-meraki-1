@@ -27,10 +27,13 @@
          "check_type": null,
          "check_params": {
             "interface": "3",
-            "interface_flags": null
+            "interface_flags": {}
          },
          "expected_results": {
-            "used": false
+            "used": true,
+            "oper_up": true,
+            "desc": "ms01-dl2-1",
+            "speed": 1000
          }
       },
       {

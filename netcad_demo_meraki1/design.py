@@ -88,8 +88,16 @@ def cable_devices(design: Design):
     # Cable Switches to Appliance
     # -------------------------------------------------------------------------
 
-    # sw03.2 -- mx01.3
+    # sw01.1 -- mx-office (not in design yet)
 
+    # sw02.1 -- mx02.3
+    with sw02.interfaces["1"] as sw_iface, mx02.interfaces["3"] as mx_iface:
+        mx_iface.profile = AccessVlan1()
+        sw_iface.profile = AccessVlan1()
+        mx_iface.cable_id = sw_iface.cable_id = f"cable_{cable_id}"
+        cable_id += 1
+
+    # sw03.2 -- mx01.3
     with sw03.interfaces["2"] as sw_iface, mx01.interfaces["3"] as mx_iface:
         mx_iface.profile = AccessVlan1()
         sw_iface.profile = AccessVlan1()

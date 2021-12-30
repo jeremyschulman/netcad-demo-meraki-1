@@ -33,10 +33,10 @@
       },
       "3": {
          "name": "3",
-         "enabled": false,
-         "used": false,
-         "port_type": null,
-         "desc": null,
+         "enabled": true,
+         "used": true,
+         "port_type": "UTP-1G",
+         "desc": "ms01-dl2-1",
          "profile_flags": {}
       },
       "4": {

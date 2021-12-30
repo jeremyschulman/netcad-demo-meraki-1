@@ -6,6 +6,16 @@
       {
          "check_type": null,
          "check_params": {
+            "interface": "1"
+         },
+         "expected_results": {
+            "device": "mx01-dl2",
+            "port_id": "0"
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
             "interface": "2"
          },
          "expected_results": {

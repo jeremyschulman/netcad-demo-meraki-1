@@ -5,6 +5,30 @@
       "check": {
          "check_type": null,
          "check_params": {
+            "interface": "1"
+         },
+         "expected_results": {
+            "device": "mx01-dl2",
+            "port_id": "0"
+         }
+      },
+      "check_id": "1",
+      "measurement": {
+         "systemName": "Meraki MX65 - mx01-dl2",
+         "systemDescription": "Meraki MX65 Cloud Managed Router",
+         "portId": "0",
+         "chassisId": "0c:8d:db:b0:c3:44",
+         "portDescription": "lan port 0",
+         "systemCapabilities": ""
+      },
+      "field": null
+   },
+   {
+      "status": "PASS",
+      "device": "ms01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
             "interface": "2"
          },
          "expected_results": {
