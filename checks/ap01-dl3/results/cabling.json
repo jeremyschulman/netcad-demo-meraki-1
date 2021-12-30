@@ -1,0 +1,32 @@
+[
+   {
+      "status": "PASS",
+      "device": "ap01-dl3",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "wired0"
+         },
+         "expected_results": {
+            "device": "ms01-dl2",
+            "port_id": "2"
+         }
+      },
+      "check_id": "wired0",
+      "measurement": {
+         "cdp": {
+            "sourcePort": "wired0",
+            "deviceId": "e0553dd26f7a",
+            "address": "192.168.128.6",
+            "portId": "Port 2"
+         },
+         "lldp": {
+            "sourcePort": "wired0",
+            "systemName": "Meraki MS220-8P - ms01-dl2",
+            "managementAddress": "192.168.128.6",
+            "portId": "2"
+         }
+      },
+      "field": null
+   }
+]

@@ -1,0 +1,50 @@
+[
+   {
+      "status": "PASS",
+      "device": "ms01-dl3",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "1"
+         },
+         "expected_results": {
+            "device": "ap01-dl1",
+            "port_id": "0"
+         }
+      },
+      "check_id": "1",
+      "measurement": {
+         "systemName": "Meraki MR52 - ap01-dl1",
+         "systemDescription": "Meraki MR52 Cloud Managed AP",
+         "portId": "0",
+         "chassisId": "0c:8d:db:b2:77:f8",
+         "portDescription": "eth0",
+         "systemCapabilities": "Two-port MAC Relay"
+      },
+      "field": null
+   },
+   {
+      "status": "PASS",
+      "device": "ms01-dl3",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "2"
+         },
+         "expected_results": {
+            "device": "mx01-dl1",
+            "port_id": "0"
+         }
+      },
+      "check_id": "2",
+      "measurement": {
+         "systemName": "Meraki MX65 - mx01-dl1",
+         "systemDescription": "Meraki MX65 Cloud Managed Router",
+         "portId": "0",
+         "chassisId": "0c:8d:db:b0:c2:dc",
+         "portDescription": "lan port 0",
+         "systemCapabilities": ""
+      },
+      "field": null
+   }
+]

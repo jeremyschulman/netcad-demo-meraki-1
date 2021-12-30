@@ -1,0 +1,30 @@
+{
+   "name": "interfaces",
+   "device": "ap01-dl1",
+   "exclusive": true,
+   "checks": [
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "wan1",
+            "interface_flags": null
+         },
+         "expected_results": {
+            "used": false
+         }
+      },
+      {
+         "check_type": null,
+         "check_params": {
+            "interface": "wired0",
+            "interface_flags": {}
+         },
+         "expected_results": {
+            "used": true,
+            "oper_up": true,
+            "desc": "ms01-dl3-1",
+            "speed": 1000
+         }
+      }
+   ]
+}

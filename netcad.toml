@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+#
+#                               User Designs
+#
+# -----------------------------------------------------------------------------
+
+[[design]]
+    name = "meraki1"
+    description = "Meraki Demo1"
+    package = "netcad_demo_meraki1"
+
+# -----------------------------------------------------------------------------
+#
+#                                netcam plugins
+#
+# -----------------------------------------------------------------------------
+
+[[netcam.plugins]]
+    name = "Meraki Dashboard"
+    package = "netcam_aiomeraki"
+    supports = ["meraki"]
+
+    [netcam.plugins.config]
+        org_name = "DeLab"
+
+# -----------------------------------------------------------------------------
+#
+#                       System of Record "Origins"
+#
+# -----------------------------------------------------------------------------
+
+[origin.netbox]
+    url = "http://localhost:8000"
+    token = "$NETBOX_TOKEN"
+    package = "netcad.netbox:netbox"
+
+
+[get]
+    device-types = "netbox"

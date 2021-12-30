@@ -1,0 +1,52 @@
+[
+   {
+      "status": "INFO",
+      "device": "ap01-dl1",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ap01-dl1",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MR52"
+         }
+      },
+      "check_id": "ap01-dl1",
+      "measurement": {
+         "name": "ap01-dl1",
+         "serial": "Q2LD-FGN3-VP7S",
+         "mac": "0c:8d:db:b2:77:f8",
+         "networkId": "L_783626335162466320",
+         "productType": "wireless",
+         "model": "MR52",
+         "address": "",
+         "lat": 37.4180951010362,
+         "lng": -122.098531723022,
+         "notes": "",
+         "tags": [],
+         "lanIp": "192.168.128.7",
+         "configurationUpdatedAt": "2021-12-26T19:06:13Z",
+         "firmware": "wireless-27-7-1",
+         "url": "https://n392.meraki.com/DevNetLab-wirele/n/61qIJbig/manage/nodes/new_list/13803415828472"
+      },
+      "field": "device_info"
+   },
+   {
+      "status": "PASS",
+      "device": "ap01-dl1",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ap01-dl1",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MR52"
+         }
+      },
+      "check_id": "ap01-dl1",
+      "measurement": "MR52",
+      "field": "product_model"
+   }
+]

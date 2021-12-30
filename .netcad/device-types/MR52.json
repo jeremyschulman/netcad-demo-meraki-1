@@ -1,0 +1,51 @@
+{
+   "device_type": {
+      "id": 33,
+      "url": "http://localhost:8000/api/dcim/device-types/33/",
+      "display": "MR52",
+      "manufacturer": {
+         "id": 2,
+         "url": "http://localhost:8000/api/dcim/manufacturers/2/",
+         "display": "Cisco",
+         "name": "Cisco",
+         "slug": "cisco"
+      },
+      "model": "MR52",
+      "slug": "mr52",
+      "part_number": "MR52",
+      "u_height": 1,
+      "is_full_depth": false,
+      "subdevice_role": null,
+      "front_image": null,
+      "rear_image": null,
+      "comments": "",
+      "tags": [],
+      "custom_fields": {},
+      "created": "2021-12-30",
+      "last_updated": "2021-12-30T19:59:03.086275Z",
+      "device_count": 0
+   },
+   "interfaces": [
+      {
+         "name": "wan1",
+         "label": "",
+         "type": {
+            "value": "virtual",
+            "label": "Virtual"
+         },
+         "mgmt_only": true,
+         "description": ""
+      },
+      {
+         "name": "wired0",
+         "label": "",
+         "type": {
+            "value": "1000base-t",
+            "label": "1000BASE-T (1GE)"
+         },
+         "mgmt_only": false,
+         "description": ""
+      }
+   ],
+   "netcad.origin": "netbox"
+}

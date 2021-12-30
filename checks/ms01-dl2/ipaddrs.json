@@ -1,0 +1,6 @@
+{
+   "name": "ipaddrs",
+   "device": "ms01-dl2",
+   "exclusive": true,
+   "checks": []
+}

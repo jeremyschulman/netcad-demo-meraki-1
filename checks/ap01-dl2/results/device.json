@@ -1,0 +1,54 @@
+[
+   {
+      "status": "INFO",
+      "device": "ap01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ap01-dl2",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MR42"
+         }
+      },
+      "check_id": "ap01-dl2",
+      "measurement": {
+         "name": "ap01-dl2",
+         "serial": "Q2KD-KWMU-7U92",
+         "mac": "e0:cb:bc:8c:1f:fe",
+         "networkId": "L_783626335162466514",
+         "productType": "wireless",
+         "model": "MR42",
+         "address": "",
+         "lat": 41.30627,
+         "lng": -81.61507,
+         "notes": "",
+         "tags": [
+            "recently-added"
+         ],
+         "lanIp": "192.168.0.2",
+         "configurationUpdatedAt": "2021-12-30T21:08:53Z",
+         "firmware": "wireless-27-7-1",
+         "url": "https://n392.meraki.com/DevNetLab2-wirel/n/3dpsodig/manage/nodes/new_list/247165646282750"
+      },
+      "field": "device_info"
+   },
+   {
+      "status": "PASS",
+      "device": "ap01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "device": "ap01-dl2",
+            "os_name": "meraki"
+         },
+         "expected_results": {
+            "product_model": "MR42"
+         }
+      },
+      "check_id": "ap01-dl2",
+      "measurement": "MR42",
+      "field": "product_model"
+   }
+]

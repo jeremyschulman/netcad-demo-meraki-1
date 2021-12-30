@@ -1,0 +1,26 @@
+[
+   {
+      "status": "PASS",
+      "device": "ms01-dl1",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "2"
+         },
+         "expected_results": {
+            "device": "ap01-dl2",
+            "port_id": "0"
+         }
+      },
+      "check_id": "2",
+      "measurement": {
+         "systemName": "Meraki MR42 - ap01-dl2",
+         "systemDescription": "Meraki MR42 Cloud Managed AP",
+         "portId": "0",
+         "chassisId": "e0:cb:bc:8c:1f:fe",
+         "portDescription": "eth0",
+         "systemCapabilities": "Two-port MAC Relay"
+      },
+      "field": null
+   }
+]

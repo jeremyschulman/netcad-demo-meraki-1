@@ -1,0 +1,22 @@
+[
+   {
+      "status": "PASS",
+      "device": "ap01-dl2",
+      "check": {
+         "check_type": null,
+         "check_params": {
+            "interface": "wired0",
+            "interface_flags": {}
+         },
+         "expected_results": {
+            "used": true,
+            "oper_up": true,
+            "desc": "ms01-dl1-2",
+            "speed": 1000
+         }
+      },
+      "check_id": "wired0",
+      "measurement": true,
+      "field": null
+   }
+]
